@@ -40,7 +40,7 @@ Create figure
     plt.plot(x, np.sin(x), lw=3)
     plt.show()
 
-![FIG1](/assets/testFig1.png)
+![FIG1](/assets/testFig1py.png)
 
 Save figure 
 
@@ -63,7 +63,7 @@ Create figure
     plt.plot(x, np.cos(x), lw=3)
     plt.show()
 
-![FIG2](/assets/testFig2.png)
+![FIG2](/assets/testFig2py.png)
 
 Save figure 
 
