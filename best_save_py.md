@@ -133,6 +133,8 @@ Data Types: (boolean)
 
 When the function is called for the first time in a new directory, it will create a **figures** folder (code_folder/figures).  When the function is called for the first time in a day in a directory where it has already been called previously, it will create a folder labeled with the current date below the **figures** folder (code_folder/figures/MM_DD_YYY). When the function is called with the `supplemental` argument defined as True, it will create a subfolder labeled **supplemental** and save the figure there (code_folder/figures/MM_DD_YYYY/Supplemental). 
 
+One can find a clear example [here](https://github.com/tulimid1/savingFiles-py/tree/main/figures). 
+
 ## Tips 
 ---
 
