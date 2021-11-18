@@ -6,7 +6,7 @@ permalink: /MATLAB/
 
 # Functions 
 
-* [best_savE](/best_save_m.md)
+* [best_save](/best_save_m.md)
 * [writeGif](/writeGif_m.md)
 
 ---
