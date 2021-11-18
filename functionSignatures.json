@@ -1,0 +1,24 @@
+{
+    "_schemaVersion": "1.0.0",
+    "best_save":
+    {
+       "inputs":
+       [
+          {"name":"fig_name", "kind":"required", "type":["char"], "purpose":"Figure filename"},
+          {"name":"close_yn", "kind":"namevalue", "type":["logical", "scalar"], "purpose":"Close figure after saving (default=true)"}, 
+          {"name":"fig_handle", "kind":"namevalue","purpose":"Figure handle (default=gcf())"},
+          {"name":"sup", "kind":"namevalue", "type":["logical", "scalar"],"purpose":"Save to supplemental folder (default=false)"},
+          {"name":"paper", "kind":"namevalue", "type":["logical", "scalar"],"purpose":"Save to paper folder (default=false)"},
+          {"name":"extension", "kind":"namevalue", "type":["char"],"purpose":"File extension (default='.png')"}
+       ]
+    }, 
+    "writeGif":
+    {
+       "inputs":
+       [
+          {"name":"filename", "kind":"required", "type":["char"], "purpose":".gif filename"},
+          {"name":"iter", "kind":"required", "type":["numeric"], "purpose":"Current iteration"}, 
+          {"name":"delayTime", "kind":"namevalue", "type":["numeric", "scalar"],"purpose":"Delay between frames (default=0.1s)"}
+       ]
+    }
+}
