@@ -139,3 +139,8 @@ One can find a clear example [here](https://github.com/tulimid1/savingFiles-py/t
 ---
 
 If you get an error or pause execution while this function is working, it is good practice to make sure you reset your directory. 
+
+## See also
+---
+
+[writeGif()](https://tulimid1.github.io/savingFiles-py/writeGif_py/)
