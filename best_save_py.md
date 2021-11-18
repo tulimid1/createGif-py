@@ -3,93 +3,137 @@ layout: page
 title: Python
 ---
 
-# [function](https://function_link)
+# [best_save()](https://github.com/tulimid1/savingFiles-py/blob/main/best_save.py)
 ---
 
-Description. See [function_main.ipynb](https://function_main.ipynb) for a notebook of given examples. 
+Save figures systematically to keep clean organization. See [Using_SaveFiles.ipynb](https://github.com/tulimid1/savingFiles-py/blob/main/Using_SaveFiles.ipynb) for a notebook with examples. 
 
 ## Syntax
 ---
-    import module as m
 
-[outarg = m.function(inarg1, inarg2)](#a)
+[best_save(fig_obj, fig_name)](#a)
 
-[outarg = m.function(inarg1, inarg2, Name=Value)](#b)
+[best_save(fig_obj, fig_name, Name=Value)](#b)
 
 ## Description
 ---
 ### A
-[outarg](#outarg) = m.function([inarg1](#inarg1), [inarg2](#inarg2)) returns a ... . [example](#example-1)
+best_save([fig_obj](#fig_obj), [fig_name](#fig_name)) saves the figure object as `fig_name` in a folder labeled with the current date. [example](#basic-save)
 
 ### B 
-[outarg](#outarg) = m.function([inarg1](#inarg1), [inarg2](#inarg2), [Name=Value](#name-value-arguments)) returns ... with additional options specified by one or more name-value pair arguments. For example, you can do this or that. [example](#example-2)
+best_save([fig_obj](#fig_obj), [fig_name](#fig_name), [Name=Value](#name-value-arguments)) saves figure in folder of current date with additional options specified by one or more name-value pair arguments. For example, you can save to supplemental folder inside the current folder or not close the figure after it's saved. [example](#save-to-supplemental)
 
 ## Examples 
 ---
-### Example 1
-Description 
+### Basic save
+Import libraries 
 
-    CODE
-
-![FIG1](/assets/FIG1.png)
-
-### Example 2 
-Description
-
-    CODE
+    import numpy as np 
+    import matplotlib.pyplot as plt
     
-![FIG2](/assets/FIG2.png)
+Create figure
+    
+    # create some figure 
+    x = np.linspace(0, 2*np.pi, 100)
+
+    fig1 = plt.figure()
+    plt.plot(x, np.sin(x), lw=3)
+    plt.show()
+
+![FIG1](/assets/testFig1.png)
+
+Save figure 
+
+    best_save(fig1, 'testFig1') # normal folder 
+
+### Save to supplemental
+Save figure to supplemental folder inside of current date's folder.
+
+Import libraries 
+
+    import numpy as np 
+    import matplotlib.pyplot as plt
+    
+Create figure
+    
+    # create some figure 
+    x = np.linspace(0, 2*np.pi, 100)
+
+    fig2 = plt.figure()
+    plt.plot(x, np.cos(x), lw=3)
+    plt.show()
+
+![FIG2](/assets/testFig2.png)
+
+Save figure 
+
+    best_save(fig2, 'testFig2', supplemental=True) # put in supplemental folder  
+
+### Don't close after saving 
+Don't close the figure object after it is saved.
+
+Import libraries 
+
+    import numpy as np 
+    import matplotlib.pyplot as plt
+    
+Create figure
+    
+    # create some figure 
+    x = np.linspace(0, 2*np.pi, 100)
+
+    fig1 = plt.figure()
+    plt.plot(x, np.sin(x), lw=3)
+    plt.show()
+
+Save figure 
+
+    best_save(fig1, 'testfig1', close=False)
 
 ## Input Arguments
 ---
-### ```inarg1```
-Short description
+### ```fig_obj```
+Figure object to be saved. 
 
-Long description
+Object of figure to be saved via best_save() function. Preferably matplotlib.pyplot.figure(). 
 
-Data Types: (X, Y)
+    fig = matplotlib.pyplot.figure()
 
-### ```inarg2```
-Short description
+Data Types: (figure object)
 
-Long description
+### ```fig_name```
+Name of file figure should be named. 
 
-Data Types: (X, Y)
+File name for figure. Extension will default as .png. 
+
+Data Types: (str)
 
 ### Name-Value Arguments
 
 Specified optional pairs of ```Name=Value``` arguments. ```Name``` is the is the argument name and ```Value``` is the corresponding value. You can specify several name and value pair arguments in any order as ```Name1=Value1,...,NameN=ValueN```. 
 
-**Example**: ```name1=value1, name2=value2``` specifies a maze with 15 columns and 500 iterations to try to converge. 
+**Example**: ```close=True, supplemental=True``` specifies function to save figure in a subfolder called Supplemental and to close the figure after it is saved. 
 
-### ```name1```
-Short description (default=X)
+### ```close```
+Close figure after saved. (default=True)
 
-Long description
+Whether or not to close figure after it has been saved in appropriate location. 
 
-Data Types: (X, Y)
+Data Types: (boolean)
 
-### ```name2```
-Short description (default=X)
+### ```supplemental```
+Save to supplemental subfolder (default=False)
 
-Long description
+Whether or not to save figure to subfolder called supplemental folder. 
 
-Data Types: (X, Y)
-
-## Output
----
-
-### ```outarg```
-Short description
-
-Long description 
-
-Data Types: (X, Y)
+Data Types: (boolean)
 
 ## More About 
 ---
 
+When the function is called for the first time in a new directory, it will create a **figures** folder (code_folder/figures).  When the function is called for the first time in a day in a directory where it has already been called previously, it will create a folder labeled with the current date below the **figures** folder (code_folder/figures/MM_DD_YYY). When the function is called with the `supplemental` argument defined as True, it will create a subfolder labeled **supplemental** and save the figure there (code_folder/figures/MM_DD_YYYY/Supplemental). 
+
 ## Tips 
 ---
 
-
+If you get an error or pause execution while this function is working, it is good practice to make sure you reset your directory. 
