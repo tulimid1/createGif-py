@@ -3,10 +3,10 @@ layout: page
 title: Python
 ---
 
-# [best_save()](https://github.com/tulimid1/savingFiles-py/blob/main/best_save.py)
+# [best_save()](https://github.com/tulimid1/savingFiles/blob/main/best_save.py)
 ---
 
-Save figures systematically to keep clean organization. See [Using_SaveFiles.ipynb](https://github.com/tulimid1/savingFiles-py/blob/main/Using_SaveFiles.ipynb) for a notebook with examples. 
+Save figures systematically to keep clean organization. See [Using_SaveFiles.ipynb](https://github.com/tulimid1/savingFiles/blob/main/Using_SaveFiles.ipynb) for a notebook with examples. 
 
 ## Syntax
 ---
@@ -133,7 +133,7 @@ Data Types: (boolean)
 
 When the function is called for the first time in a new directory, it will create a **figures** folder (code_folder/figures).  When the function is called for the first time in a day in a directory where it has already been called previously, it will create a folder labeled with the current date below the **figures** folder (code_folder/figures/MM_DD_YYY). When the function is called with the `supplemental` argument defined as True, it will create a subfolder labeled **supplemental** and save the figure there (code_folder/figures/MM_DD_YYYY/Supplemental). 
 
-One can find a clear example [here](https://github.com/tulimid1/savingFiles-py/tree/main/figures). 
+One can find a clear example [here](https://github.com/tulimid1/savingFiles/tree/main/figures). 
 
 ## Tips 
 ---
@@ -143,4 +143,4 @@ If you get an error or pause execution while this function is working, it is goo
 ## See also
 ---
 
-[writeGif()](https://tulimid1.github.io/savingFiles-py/writeGif_py/)
+[writeGif()](https://tulimid1.github.io/savingFiles/writeGif_py/)
