@@ -3,10 +3,10 @@ layout: page
 title: Python
 ---
 
-# [writeGif()](https://github.com/tulimid1/savingFiles-py/blob/main/writeGif.py)
+# [writeGif()](https://github.com/tulimid1/savingFiles/blob/main/writeGif.py)
 ---
 
-Create a .gif file animation. See [Using_SaveFiles.ipynb](https://github.com/tulimid1/savingFiles-py/blob/main/Using_SaveFiles.ipynb) for a notebook of examples. 
+Create a .gif file animation. See [Using_SaveFiles.ipynb](https://github.com/tulimid1/savingFiles/blob/main/Using_SaveFiles.ipynb) for a notebook of examples. 
 
 ## Syntax
 ---
@@ -113,11 +113,11 @@ Data Types: (boolean)
 ## More About 
 ---
 
-This function uses methodology [best_save()](https://tulimid1.github.io/savingFiles-py/best_save_py/) extensively. 
+This function uses methodology [best_save()](https://tulimid1.github.io/savingFiles/best_save_py/) extensively. 
 
 ## Tips 
 ---
 
 ## See also 
 ---
-[best_save()](https://tulimid1.github.io/savingFiles-py/best_save_py/)
+[best_save()](https://tulimid1.github.io/savingFiles/best_save_py/)
