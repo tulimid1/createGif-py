@@ -18,7 +18,7 @@ Create a .gif file animation. See [Using_SaveFiles.ipynb](https://github.com/tul
 ## Description
 ---
 ### A
-writeGif([filenameG](#filenameg), [filenames](#filenames)) saves a .gif file labeled `filenameG` that animates files in `filenamees`. [example](#simple-example)
+writeGif([filenameG](#filenameg), [filenames](#filenames)) saves a .gif file labeled [filenameG](#filenameg) that animates files in [filenames](#filenames). [example](#simple-example)
 
 ### B 
 writeGif([filenameG](#filenameg), [filenames](#filenames), [Name=Value](#name-value-arguments)) saves a .gif file with additional options specified by one or more name-value pair arguments. For example, you can save to a supplemental folder. [example](#save-to-supplemental)
