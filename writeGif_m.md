@@ -18,7 +18,7 @@ Create a .gif file animation. See [Using_SaveFiles.mlx](https://github.com/tulim
 ## Description
 ---
 ### A
-writeGif([filename](#filename), [iter](#iter)) saves a .gif file labeled [filenameG](#filenameg) that animates files in [filenames](#filenames). [example](#simple-example)
+writeGif([filename](#filename), [iter](#iter)) saves a .gif file labeled [filename](#filename). [example](#simple-example)
 
 ### B 
 writeGif([filename](#filename), , [iter](#iter), [Name=Value](#name-value-arguments)) saves a .gif file with additional options specified by one or more name-value pair arguments. For example, you can save to a supplemental folder. [example](#slower-animation)
