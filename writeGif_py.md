@@ -3,91 +3,121 @@ layout: page
 title: Python
 ---
 
-# [function](https://function_link)
+# [writeGif()](https://github.com/tulimid1/savingFiles-py/blob/main/writeGif.py)
 ---
 
-Description. See [function_main.ipynb](https://function_main.ipynb) for a notebook of given examples. 
+Create a .gif file animation. See [Using_SaveFiles.ipynb](https://github.com/tulimid1/savingFiles-py/blob/main/Using_SaveFiles.ipynb) for a notebook of examples. 
 
 ## Syntax
 ---
-    import module as m
 
-[outarg = m.function(inarg1, inarg2)](#a)
+[writeGif(filenameG, filenames)](#a)
 
-[outarg = m.function(inarg1, inarg2, Name=Value)](#b)
+[writeGif(filenameG, filenames, Name=Value)](#b)
 
 ## Description
 ---
 ### A
-[outarg](#outarg) = m.function([inarg1](#inarg1), [inarg2](#inarg2)) returns a ... . [example](#example-1)
+writeGif([filenameG](#filenameg), [filenames](#filenames)) saves a .gif file labeled `filenameG` that animates files in `filenamees`. [example](#simple-example)
 
 ### B 
-[outarg](#outarg) = m.function([inarg1](#inarg1), [inarg2](#inarg2), [Name=Value](#name-value-arguments)) returns ... with additional options specified by one or more name-value pair arguments. For example, you can do this or that. [example](#example-2)
+writeGif([filenameG](#filenameg), [filenames](#filenames), [Name=Value](#name-value-arguments)) saves a .gif file with additional options specified by one or more name-value pair arguments. For example, you can save to a supplemental folder. [example](#save-to-supplemental)
 
 ## Examples 
 ---
-### Example 1
-Description 
+### Simple example
+Sine wave gif. 
 
-    CODE
-
-![FIG1](/assets/FIG1.png)
-
-### Example 2 
-Description
-
-    CODE
+    # import libraries
+    import numpy as np 
+    import matplotlib.pyplot as plt
     
-![FIG2](/assets/FIG2.png)
+    x_end = np.linspace(2*np.pi, 4*np.pi, 100) # make look bigger 
+    fnamesSIN = [] # storing file names for gif
+
+    for xE in x_end:
+        x = np.linspace(0, xE, 100)
+
+        # make a figure (sine)
+        fig1 = plt.figure()
+        plt.plot(x, np.sin(x), lw=3)
+
+        # iteratively define filename 
+        filename1 = f'{xE}SIN.png'
+        fnamesSIN.append(filename1) # store file names 
+        best_save(fig1, filename1) # save 
+
+    # write figure files to a gif
+    writeGif('testGif1', fnamesSIN)
+
+![FIG1](/assets/testGif1.png)
+
+### Save to supplemental
+Cosine wave gif
+
+    # import libraries
+    import numpy as np 
+    import matplotlib.pyplot as plt
+    
+    x_end = np.linspace(2*np.pi, 4*np.pi, 100) # make look bigger 
+    fnamesCOS = [] # storing file names for gif
+
+    for xE in x_end:
+        x = np.linspace(0, xE, 100)
+
+        # make a figure (cosine)
+        fig2 = plt.figure()
+        plt.plot(x, np.cos(x), lw=3)
+
+        # iteratively define filename 
+        filename2 = f'{xE}COS.png'
+        fnamesCOS.append(filename2) # store file names 
+        best_save(fig2, filename2, supplemental=True) # save 
+
+    # write figure files to a gif
+    writeGif('testGif2', fnamesCOS, supplemental=True)
+    
+![FIG2](/assets/testGif2.png)
 
 ## Input Arguments
 ---
-### ```inarg1```
-Short description
+### ```filenameG```
+Filename for .gif file.
 
-Long description
+Desired name of gif file. Final gif file = `filenameG + .gif`
 
-Data Types: (X, Y)
+Data Types: (str)
 
-### ```inarg2```
-Short description
+### ```filenames```
+List of filenames to be written as a gif
 
-Long description
+Names of files that will be appended together to create animation. 
 
-Data Types: (X, Y)
+Data Types: (list, vector)
 
 ### Name-Value Arguments
 
 Specified optional pairs of ```Name=Value``` arguments. ```Name``` is the is the argument name and ```Value``` is the corresponding value. You can specify several name and value pair arguments in any order as ```Name1=Value1,...,NameN=ValueN```. 
 
-**Example**: ```name1=value1, name2=value2``` specifies a maze with 15 columns and 500 iterations to try to converge. 
+**Example**: ```supplemental=False``` specifies a gif file to be saved in regular figure location (code_folder/figures/MM_DD_YYYY. 
 
-### ```name1```
-Short description (default=X)
+### ```supplemental```
+Save to supplemental folder (default=False)
 
-Long description
+Whether or not to save .gif file to supplemental folder. 
 
-Data Types: (X, Y)
+If this option is used, one must save all files in [filenames](#filenames) in the supplemental folder as well. 
 
-### ```name2```
-Short description (default=X)
-
-Long description
-
-Data Types: (X, Y)
-
-## Output
----
-
-### ```outarg```
-Short description
-
-Long description 
-
-Data Types: (X, Y)
+Data Types: (boolean)
 
 ## More About 
 ---
 
+This function uses methodology [best_save()](https://tulimid1.github.io/savingFiles-py/best_save_py/) extensively. 
+
 ## Tips 
 ---
+
+## See also 
+---
+[best_save()](https://tulimid1.github.io/savingFiles-py/best_save_py/)
