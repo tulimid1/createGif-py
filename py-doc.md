@@ -4,7 +4,14 @@ title: Python
 permalink: /Python/
 ---
 
-# [function](https://function_link)
+# Overview 
+
+* [best_save()]()
+* [writeGif]()
+
+---
+
+<!-- # [function](https://function_link)
 ---
 
 Description. See [function_main.ipynb](https://function_main.ipynb) for a notebook of given examples. 
@@ -92,3 +99,6 @@ Data Types: (X, Y)
 
 ## Tips 
 ---
+
+
+ -->
