@@ -50,7 +50,7 @@ Sine wave gif.
     # write figure files to a gif
     writeGif('testGif1', fnamesSIN)
 
-![FIG1](/assets/testGif1.png)
+![FIG1](/assets/testGif1.gif)
 
 ### Save to supplemental
 Cosine wave gif
@@ -77,7 +77,7 @@ Cosine wave gif
     # write figure files to a gif
     writeGif('testGif2', fnamesCOS, supplemental=True)
     
-![FIG2](/assets/testGif2.png)
+![FIG2](/assets/testGif2.gif)
 
 ## Input Arguments
 ---
