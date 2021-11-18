@@ -1,4 +1,7 @@
-
+---
+layout: page
+title: Python
+---
 
 # [function](https://function_link)
 ---
