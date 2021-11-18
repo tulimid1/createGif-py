@@ -21,7 +21,7 @@ Create a .gif file animation. See [Using_SaveFiles.mlx](https://github.com/tulim
 writeGif([filename](#filename), [iter](#iter)) saves a .gif file labeled [filenameG](#filenameg) that animates files in [filenames](#filenames). [example](#simple-example)
 
 ### B 
-writeGif([filename](#filename), , [iter](#iter), [Name=Value](#name-value-arguments)) saves a .gif file with additional options specified by one or more name-value pair arguments. For example, you can save to a supplemental folder. [example](#save-to-supplemental)
+writeGif([filename](#filename), , [iter](#iter), [Name=Value](#name-value-arguments)) saves a .gif file with additional options specified by one or more name-value pair arguments. For example, you can save to a supplemental folder. [example](#slower-animation)
 
 ## Examples 
 ---
@@ -46,7 +46,7 @@ Sine wave gif.
 
 ![FIG1](/assets/testGif1m.gif)
 
-### Save to supplemental
+### Slower animation
 Cosine wave gif
 
     % cos
