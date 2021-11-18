@@ -49,6 +49,10 @@ Sine wave gif.
 ### Slower animation
 Cosine wave gif
 
+    x = linspace(0, 2*pi, 100); % to evaluate
+
+    x_end = linspace(2*pi, 4*pi, 100); % make look bigger 
+
     % cos
     % initialize
     figure()
