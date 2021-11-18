@@ -6,8 +6,8 @@ permalink: /Python/
 
 # Overview 
 
-* [best_save()]()
-* [writeGif]()
+* [best_save()](/best_save_py.md)
+* [writeGif](/writeGif_py.md)
 
 ---
 
