@@ -121,3 +121,10 @@ This function uses methodology [best_save()](https://tulimid1.github.io/savingFi
 ## See also 
 ---
 [best_save()](https://tulimid1.github.io/savingFiles/best_save_py/)
+
+## Issues and Discussion 
+---
+
+[Issues](https://github.com/tulimid1/savingFiles/issues) and [Discussion](https://github.com/tulimid1/savingFiles/discussions).
+
+If you don't know how to use github (or don't want to), just send me an [email](mailto:tulimid@udel.edu). 
