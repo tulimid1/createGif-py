@@ -1,5 +1,6 @@
 # savingFiles
-Saving files in Python and MATLAB 
+
+Saving files in Python and MATLAB. [Documentation](https://tulimid1.github.io/savingFiles)
 
 This repository holds functions that I use to save figures when doing analysis. These functions are meant to help organize figures and make the saving process easier. 
 
