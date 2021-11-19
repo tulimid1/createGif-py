@@ -144,3 +144,10 @@ If you get an error or pause execution while this function is working, it is goo
 ---
 
 [writeGif()](https://tulimid1.github.io/savingFiles/writeGif_py/)
+
+## Issues and Discussion 
+---
+
+[Issues](https://github.com/tulimid1/savingFiles/issues) and [Discussion](https://github.com/tulimid1/savingFiles/discussions).
+
+If you don't know how to use github (or don't want to), just send me an [email](mailto:tulimid@udel.edu). 
