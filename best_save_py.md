@@ -11,16 +11,16 @@ Save figures systematically to keep clean organization. See [Using_SaveFiles.ipy
 ## Syntax
 ---
 
-[best_save(fig_obj, fig_name)](#-1)
+[best_save(fig_obj, fig_name)](#a)
 
-[best_save(fig_obj, fig_name, Name=Value)](#-2)
+[best_save(fig_obj, fig_name, Name=Value)](#b)
 
 ## Description
 ---
-### 
+### A
 best_save([fig_obj](#fig_obj), [fig_name](#fig_name)) saves the figure object as `fig_name` in a folder labeled with the current date. [example](#basic-save)
 
-###  
+### B
 best_save([fig_obj](#fig_obj), [fig_name](#fig_name), [Name=Value](#name-value-arguments)) saves figure in folder of current date with additional options specified by one or more name-value pair arguments. For example, you can save to supplemental folder inside the current folder or not close the figure after it's saved. [example](#save-to-supplemental)
 
 ## Examples 
