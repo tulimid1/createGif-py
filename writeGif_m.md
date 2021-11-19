@@ -99,7 +99,7 @@ Data Types: (boolean)
 ## More About 
 ---
 
-This function uses methodology [best_save](https://tulimid1.github.io/savingFiles-py/best_save_m/) extensively. 
+This function uses methodology [best_save](https://tulimid1.github.io/savingFiles/best_save_m/) extensively. 
 
 ## Tips 
 ---
