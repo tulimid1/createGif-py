@@ -3,10 +3,10 @@ layout: page
 title: MATLAB
 ---
 
-# [writeGif](https://github.com/tulimid1/savingFiles/blob/main/writeGif.m)
+# [writeGif](https://github.com/tulimid1/savingFigures_matlabPython/blob/main/writeGif.m)
 ---
 
-Create a .gif file animation. See [Using_SaveFiles.mlx](https://github.com/tulimid1/savingFiles/blob/main/Using_SaveFiles.mlx) for a notebook of examples. 
+Create a .gif file animation. See [Using_SaveFiles.mlx](https://github.com/tulimid1/savingFigures_matlabPython/blob/main/Using_SaveFiles.mlx) for a notebook of examples. 
 
 ## Syntax
 ---
@@ -99,7 +99,7 @@ Data Types: (boolean)
 ## More About 
 ---
 
-This function uses methodology [best_save](https://tulimid1.github.io/savingFiles/best_save_m/) extensively. 
+This function uses methodology [best_save](https://github.com/tulimid1/savingFigures_matlabPython/blob/main/best_save.m) extensively. 
 
 ## Tips 
 ---
@@ -110,11 +110,11 @@ If you already have a `functionSignatures.json` file in your folder, just add th
 
 ## See also 
 ---
-[best_save](https://tulimid1.github.io/savingFiles/best_save_m/)
+[best_save](https://github.com/tulimid1/savingFigures_matlabPython/blob/main/best_save.m)
 
 ## Issues and Discussion 
 ---
 
-[Issues](https://github.com/tulimid1/savingFiles/issues) and [Discussion](https://github.com/tulimid1/savingFiles/discussions).
+[Issues](https://github.com/tulimid1/savingFigures_matlabPython/issues) and [Discussion](https://github.com/tulimid1/savingFigures_matlabPython/discussions).
 
 If you don't know how to use github (or don't want to), just send me an [email](mailto:tulimid@udel.edu). 
