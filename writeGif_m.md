@@ -104,6 +104,10 @@ This function uses methodology [best_save](https://tulimid1.github.io/savingFile
 ## Tips 
 ---
 
+I would suggest adding both `writeGif.m` and `functionSignatures.json` to a folder that is in your MATLAB path. The `writeGif.m` contains the function and the `functionSignatures.json` will you give custom suggestions and code completion for when you call `writeGif` in a script or notebook. 
+
+If you already have a `functionSignatures.json` file in your folder, just add the pertinent code to the original `functionSignatures.json`. 
+
 ## See also 
 ---
 [best_save](https://tulimid1.github.io/savingFiles/best_save_m/)
