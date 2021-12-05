@@ -3,10 +3,10 @@ layout: page
 title: MATLAB
 ---
 
-# [best_save](https://github.com/tulimid1/savingFiles/blob/main/best_save.m)
+# [best_save](https://github.com/tulimid1/savingFigures_matlabPython/blob/main/best_save.m)
 ---
 
-Save figures systematically to keep clean organization. See [Using_SaveFiles.mlx](https://github.com/tulimid1/savingFiles/blob/main/Using_SaveFiles.mlx) for a notebook with examples. 
+Save figures systematically to keep clean organization. See [Using_SaveFiles.mlx](https://github.com/tulimid1/savingFigures_matlabPython/blob/main/Using_SaveFiles.mlx) for a notebook with examples. 
 
 ## Syntax
 ---
@@ -123,7 +123,7 @@ Data Types: (char)
 
 When the function is called for the first time in a new directory, it will create a **figures** folder (code_folder/figures). When the function is called for the first time in a day in a directory where it has already been called previously, it will create a folder labeled with the current date below the **figures** folder (code_folder/figures/DD_MMM_YYYY). When the function is called with the `supplemental` argument defined as true, it will create a subfolder labeled **supplemental** and save the figure there (code_folder/figures/DD_MMM_YYYY/Supplemental). 
 
-One can find a clear example [here](https://github.com/tulimid1/savingFiles/tree/main/figures). 
+One can find a clear example [here](https://github.com/tulimid1/savingFigures_matlabPython/tree/main/figures). 
 
 ## Tips 
 ---
@@ -137,11 +137,11 @@ If you already have a `functionSignatures.json` file in your folder, just add th
 ## See also
 ---
 
-[writeGif](https://tulimid1.github.io/savingFiles/writeGif_m/)
+[writeGif](https://github.com/tulimid1/savingFigures_matlabPython/blob/main/writeGif.m)
 
 ## Issues and Discussion 
 ---
 
-[Issues](https://github.com/tulimid1/savingFiles/issues) and [Discussion](https://github.com/tulimid1/savingFiles/discussions).
+[Issues](https://github.com/tulimid1/savingFigures_matlabPython/issues) and [Discussion](https://github.com/tulimid1/savingFigures_matlabPython/discussions).
 
 If you don't know how to use github (or don't want to), just send me an [email](mailto:tulimid@udel.edu). 
