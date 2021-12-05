@@ -3,10 +3,10 @@ layout: page
 title: Python
 ---
 
-# [writeGif()](https://github.com/tulimid1/savingFiles/blob/main/writeGif.py)
+# [writeGif()](https://github.com/tulimid1/savingFigures_matlabPython/blob/main/writeGif.py)
 ---
 
-Create a .gif file animation. See [Using_SaveFiles.ipynb](https://github.com/tulimid1/savingFiles/blob/main/Using_SaveFiles.ipynb) for a notebook of examples. 
+Create a .gif file animation. See [Using_SaveFiles.ipynb](https://github.com/tulimid1/savingFigures_matlabPython/blob/main/Using_SaveFiles.ipynb) for a notebook of examples. 
 
 ## Syntax
 ---
@@ -113,18 +113,18 @@ Data Types: (boolean)
 ## More About 
 ---
 
-This function uses methodology [best_save()](https://tulimid1.github.io/savingFiles/best_save_py/) extensively. 
+This function uses methodology [best_save()](https://github.com/tulimid1/savingFigures_matlabPython/blob/main/best_save.py) extensively. 
 
 ## Tips 
 ---
 
 ## See also 
 ---
-[best_save()](https://tulimid1.github.io/savingFiles/best_save_py/)
+[best_save()](https://github.com/tulimid1/savingFigures_matlabPython/blob/main/best_save.py)
 
 ## Issues and Discussion 
 ---
 
-[Issues](https://github.com/tulimid1/savingFiles/issues) and [Discussion](https://github.com/tulimid1/savingFiles/discussions).
+[Issues](https://github.com/tulimid1/savingFigures_matlabPython/issues) and [Discussion](https://github.com/tulimid1/savingFigures_matlabPython/discussions).
 
 If you don't know how to use github (or don't want to), just send me an [email](mailto:tulimid@udel.edu). 
