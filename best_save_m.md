@@ -130,6 +130,10 @@ One can find a clear example [here](https://github.com/tulimid1/savingFiles/tree
 
 If you get an error or pause execution while this function is working, it is good practice to make sure you reset your directory. 
 
+I would suggest adding both `best_save.m` and `functionSignatures.json` to a folder that is in your MATLAB path. The `best_save.m` contains the function and the `functionSignatures.json` will you give custom suggestions and code completion for when you call `best_save` in a script or notebook. 
+
+If you already have a `functionSignatures.json` file in your folder, just add the pertinent code to the original `functionSignatures.json`. 
+
 ## See also
 ---
 
