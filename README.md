@@ -8,4 +8,4 @@ The `Using_SaveFiles.ipynb` and `Using_SaveFiles.mlx` are tutorial notebooks.
 
 ## Installation 
 
-  pip install savingfigR
+    pip install savingfigR
