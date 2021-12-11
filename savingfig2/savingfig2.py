@@ -2,7 +2,7 @@
 
 def best_save(fig_obj, fig_name, close=True, supplemental=False):
     '''
-    Save figures easily, compact, and to various places as .png (no friendly with other formats)
+    Save figures easily, compact, and to various places as .png (not friendly with other formats)
 
     INPUTS:
     fig_obj: figure object, object 
