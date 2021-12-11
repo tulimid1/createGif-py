@@ -1,1 +1,1 @@
-from savingfigR import best_save, writeGif
+from savingfigR.savingfigR import best_save, writeGif
