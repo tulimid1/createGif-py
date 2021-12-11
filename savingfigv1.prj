@@ -54,7 +54,7 @@ Using_SaveFiles.mlx</param.exclude.filters>
     <param.getting.started.guide />
     <param.matlabpath.excludes />
     <param.javaclasspath.excludes />
-    <param.exported.on.package>false</param.exported.on.package>
+    <param.exported.on.package>true</param.exported.on.package>
     <param.required.addons />
     <param.matlab.project.id />
     <param.matlab.project.name />
@@ -89,7 +89,6 @@ Using_SaveFiles.mlx</param.exclude.filters>
       <param.getting.started.guide />
       <param.matlabpath.excludes />
       <param.javaclasspath.excludes />
-      <param.exported.on.package />
       <param.required.addons />
       <param.matlab.project.id />
       <param.matlab.project.name />
@@ -113,6 +112,7 @@ Using_SaveFiles.mlx</param.exclude.filters>
     <fileset.rootfiles>
       <file>${PROJECT_ROOT}/best_save.m</file>
       <file>${PROJECT_ROOT}/functionSignatures.json</file>
+      <file>${PROJECT_ROOT}/html</file>
       <file>${PROJECT_ROOT}/writeGif.m</file>
     </fileset.rootfiles>
     <fileset.depfun.included />
