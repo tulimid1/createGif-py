@@ -5,3 +5,7 @@ Saving figures and gifs in Python and MATLAB. [Documentation](https://tulimid1.g
 This repository holds functions that I use to save figures when doing analysis. These functions are meant to help organize figures and make the saving process easier. 
 
 The `Using_SaveFiles.ipynb` and `Using_SaveFiles.mlx` are tutorial notebooks.
+
+## Installation 
+
+    pip install savingfigR
