@@ -4,6 +4,10 @@ title: Python
 permalink: /Python/
 ---
 
+# Installation 
+
+   pip install savingfigR
+
 # Functions 
 
 * [best_save()](/best_save_py.md)
@@ -13,6 +17,6 @@ permalink: /Python/
 
 # Issues and Discussion
 
-[Issues](https://github.com/tulimid1/savingFigures_matlabPython/issues) and [Discussion](https://github.com/tulimid1/savingFigures_matlabPython/discussions).
+[Issues](https://github.com/tulimid1/savingfigR/issues) and [Discussion](https://github.com/tulimid1/savingfigR/discussions).
 
 If you don't know how to use github (or don't want to), just send me an [email](mailto:tulimid@udel.edu). 
