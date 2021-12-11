@@ -8,7 +8,7 @@ setup(
   author = 'Duncan Tulimieri',                   # Type in your name
   author_email = 'tulimid@udel.edu',      # Type in your E-Mail
   url = 'https://tulimid1.github.io/',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/tulimid1/savingfig2/archive/refs/tags/v_01.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/tulimid1/savingfig2/archive/refs/tags/v_01.1.tar.gz',    # I explain this later on
   keywords = ['saving', 'figures', 'gifs'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'datetime',
