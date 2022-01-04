@@ -62,7 +62,7 @@ def best_save(fig_obj, fig_name, close=True, supplemental=False):
     # Get back to original folder 
     os.chdir(cwd)
 
-def writeGif(filenameG, filenames, supplemental=False):
+def writeGif(filenameG, filenames, supplemental=False, fps=25):
     '''
     Save figure files as gif file and delete figures used to create gif 
 
@@ -110,7 +110,7 @@ def writeGif(filenameG, filenames, supplemental=False):
             os.mkdir(cwd+'/figures'+'/'+cur_day+'/'+'Supplemental')
         os.chdir(cwd+'/figures'+'/'+cur_day+'/'+'Supplemental')
 
-    with imageio.get_writer(filenameG+'.gif', mode='I') as writer:
+    with imageio.get_writer(filenameG+'.gif', mode='I', fps=fps) as writer:
         for filename in filenames:
             image = imageio.imread(filename)
             writer.append_data(image) # add to gif 
