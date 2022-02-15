@@ -11,7 +11,6 @@ setup(
   download_url = 'https://github.com/tulimid1/savingfigR/archive/refs/tags/1.0.3.tar.gz',    # I explain this later on
   keywords = ['figures', 'gifs', 'save'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
-          'datetime', 
           'matplotlib', 
           'imageio',
       ],
